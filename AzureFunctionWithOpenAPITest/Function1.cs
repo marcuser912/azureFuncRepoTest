@@ -54,7 +54,7 @@ namespace AzureFunctionWithOpenAPITest
 
             await sender.SendMessageAsync(message);
 
-            return new OkObjectResult("Message delivered!");
+            return new OkObjectResult("Message with subject delivered!");
         }
     }
 }
